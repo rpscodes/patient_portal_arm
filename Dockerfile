@@ -1,4 +1,4 @@
-FROM arm64v8/postgres:latest
+FROM arm64v8/postgres:12
 
 ENV SHELL=/bin/sh
 
