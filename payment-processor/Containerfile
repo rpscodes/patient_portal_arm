@@ -1,0 +1,3 @@
+FROM registry.access.redhat.com/ubi9/openjdk-21-runtime:latest
+ADD target/ /app/target
+ENTRYPOINT ["java", "-jar", "/app/target/quarkus-app/quarkus-run.jar"]
